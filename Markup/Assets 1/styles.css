@@ -1,0 +1,66 @@
+.main-container {
+	background-color: rgb(121, 155, 206);
+	font-family: 'Roboto', 'sans-serif';
+	font-size: 12px;
+	width: 100%;
+	height: 100vh;
+}
+
+.card {
+	background-color: white;
+	border-radius: 4px;
+	width: 60%;
+	margin: auto;
+	transform: translateY(40%);
+	display: flex;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.device {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 33.33%;
+	text-align: center;
+	padding: 10px 2.5% 10px 2.5%;
+}
+
+.device:hover {
+	background-color: rgb(246, 246, 246);
+	border-radius: 4px;
+}
+
+.device img {
+	width: 25%;
+}
+
+.device h2 {
+	color: rgb(76, 103, 209);
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 20px;
+	letter-spacing: 2px;
+}
+
+.description {
+	margin-top: 20px;
+	color: rgb(156, 156, 156);
+}
+
+.price {
+	color: rgb(76, 103, 209);
+	font-weight: 700;
+	margin-top: 30px;
+}
+
+.large {
+	font-size: 20px;
+}
+
+.small {
+	font-size: 10px;
+	font-weight: 500;
+}
